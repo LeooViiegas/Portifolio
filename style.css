@@ -1,49 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
 body{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: absolute;
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #000000;
     color: #B6EADA;
-    font-size: 14px;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 15px;
-    line-height: 1.5;
 }
 
-h1{
-    color: #B6EADA;
+footer{
+    height: 100vh;
+    box-sizing: border-box;
 }
 
-.destaque {
+.apresentacao{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+.destaque{
     color: #FB2576;
     border: 1px solid #FB2576;
     font-weight: bold;
 }
 
-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    flex-direction: row;
-    justify-content: center;
+.redes_links{
+    display: flex;
+    margin-right: 10%;
     align-items: center;
+    justify-content: flex-end;
 }
 
-.redes{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.redessociais_links{
+    margin: 10px;
+    transition: 1s;
+    cursor: pointer;
     width: 45px;
     height: 45px;
+    padding: 1px;
     border-radius: 10px;
     background-color: #B6EADA;
-    padding-bottom: 0px;
+}
+
+.redessociais_links:hover{
+    transition: 1s;
+    background-color: #f00b4cdb;
 }
 
 .perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     border-top-left-radius: 10px;
-    margin-top: -10px;
+    margin-left: 10%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #FB2576;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Krona One', sans-serif;
 }
