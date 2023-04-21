@@ -1,22 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 body{
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #B6EADA;
 }
 
-footer{
-    height: 100vh;
-    box-sizing: border-box;
+.menu{
+    display: flex;
+    background-color: #FB2576;
+}
+
+.menu_opcoes{
+    text-decoration: none;
+    width: 80px;
+    color: #000000;
+    padding: 1%;
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
+    gap: 5px;
 }
 
 .apresentacao{
-    margin: 10%;
+    margin: 8%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content:flex-start;
+    gap: 9%;
 }
 
 .apresentacao__conteudo{
@@ -43,22 +52,35 @@ footer{
     font-weight: bold;
 }
 
+.perfil{
+    width: 25%;
+    height: 25%;
+    border-radius:60%;
+    border: #B6EADA solid 8px;
+    margin-left: 10%;
+}
+
+footer{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
 .redes_links{
     display: flex;
+    flex-direction: column;
     margin-right: 10%;
-    align-items: center;
-    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .redessociais_links{
-    margin: 10px;
-    transition: 1s;
+    margin: 5.5%;
+    transition: 1.2s;
     cursor: pointer;
     width: 45px;
     height: 45px;
-    padding: 1px;
     border-radius: 10px;
-    background-color: #B6EADA;
+    background-color: #ffffff;
 }
 
 .redessociais_links:hover{
@@ -66,20 +88,97 @@ footer{
     background-color: #f00b4cdb;
 }
 
-.perfil{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border-top-left-radius: 10px;
-    margin-left: 10%;
-}
-
-.menu{
+.rodape{
     display: flex;
     flex-direction: column;
     background-color: #FB2576;
     color: #000000;
     text-align: center;
-    padding: 10px;
+    padding: 0.3%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao_curriculo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.apresentacao_fotext{
+    background-color: rgb(5, 5, 53);
+    height: 1140px;
+    width: 25%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 3%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao_ft{
+    height: 200px;
+    width: 200px;
+    border-radius:60%;
+    border: #B6EADA solid 8px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.apresentacao_tx{
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #FB2576;
+    padding: 2%;
+    width: 50%;
+    text-align: center;
+    border-radius:  10%;
+    margin: 2%;
+    background-color: #2e2323;
+}
+
+.apresentacao_nome{
     font-family: 'Krona One', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.apresentacao_contato{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center; 
+    margin-top: 5%;
+    background-color: #2e2323;
+    width: 100%;
+}
+
+.contato_id{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 10%;
+}
+
+.icone{
+    height: 200px;
+    width: 200px;
+}
+
+.descricao{
+    text-decoration: none;
+    color: #B6EADA;
+    font-family: 'Monteserrat', sans-serif;
+    line-height: 2;
+    text-align: start;
+}
+
+.qualificacao{
+    background-color: #000000;
+    color: #000000;
+}
+
+.curriculo{
+    height: 1140px;
+    width: 680px;
+    border-radius: 3%;
+    margin-top: 4%;
 }
