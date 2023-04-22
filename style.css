@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
+:root{
+    --cor-primaria: linear-gradient(to top, #072f6a 0%, #000000 100%);
+    --cor-seundaria:  #B6EADA;
+    --cor-terciaria: #FB2576;
+}
+
 body{
     box-sizing: border-box;
-    background-color: #000000;
-    color: #B6EADA;
+    background-image: var(--cor-primaria);
+    color: var(--cor-seundaria);
 }
 
 .menu{
     display: flex;
-    background-color: #FB2576;
+    background-color: var(--cor-terciaria);
 }
 
 .menu_opcoes{
     text-decoration: none;
     width: 80px;
-    color: #000000;
+    color: black;
     padding: 1%;
     font-family: 'Krona One', sans-serif;
     font-size: 15px;
@@ -47,8 +53,8 @@ body{
 }
 
 .destaque{
-    color: #FB2576;
-    border: 1px solid #FB2576;
+    color: var(--cor-terciaria);
+    border: 1px solid var(--cor-terciaria);
     font-weight: bold;
 }
 
@@ -56,7 +62,7 @@ body{
     width: 25%;
     height: 25%;
     border-radius:60%;
-    border: #B6EADA solid 8px;
+    border: var(--cor-seundaria) solid 8px;
     margin-left: 10%;
 }
 
@@ -80,19 +86,20 @@ footer{
     width: 45px;
     height: 45px;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: var(--cor-seundaria);
 }
 
 .redessociais_links:hover{
     transition: 1s;
-    background-color: #f00b4cdb;
+    background-color: var(--cor-terciaria);
 }
 
 .rodape{
     display: flex;
     flex-direction: column;
-    background-color: #FB2576;
-    color: #000000;
+    background-color: var(--cor-terciaria);
+    color: black;
+    font-weight: bold;
     text-align: center;
     padding: 0.3%;
     font-family: 'Montserrat', sans-serif;
@@ -121,20 +128,20 @@ footer{
     height: 200px;
     width: 200px;
     border-radius:60%;
-    border: #B6EADA solid 8px;
+    border: var(--cor-seundaria) solid 8px;
     margin-left: 10%;
     margin-top: 5%;
 }
 
 .apresentacao_tx{
     font-family: 'Montserrat', sans-serif;
-    border: 1px solid #FB2576;
+    border: 1px solid var(--cor-terciaria);
     padding: 2%;
     width: 50%;
     text-align: center;
     border-radius:  10%;
     margin: 2%;
-    background-color: #2e2323;
+    background-color: var(--cor-primaria);
 }
 
 .apresentacao_nome{
@@ -148,7 +155,7 @@ footer{
     font-size: 30px;
     text-align: center; 
     margin-top: 5%;
-    background-color: #2e2323;
+    background-color: var(--cor-primaria);
     width: 100%;
 }
 
@@ -165,15 +172,15 @@ footer{
 
 .descricao{
     text-decoration: none;
-    color: #B6EADA;
+    color: var(--cor-seundaria);
     font-family: 'Monteserrat', sans-serif;
-    line-height: 2;
+    line-height: 1.7;
     text-align: start;
 }
 
 .qualificacao{
-    background-color: #000000;
-    color: #000000;
+    background-color: var(--cor-primaria);
+    color: var(--cor-primaria);
 }
 
 .curriculo{
@@ -181,4 +188,40 @@ footer{
     width: 680px;
     border-radius: 3%;
     margin-top: 4%;
+}
+
+.apresentacao__titulo_cursos{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    margin-bottom: 10px;
+}
+
+.lista__de__cursos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--cor-seundaria);
+    border-radius: 10px;
+    border: var(--cor-terciaria) solid 4px;
+    margin-bottom: 10px;
+}
+
+.logo__cursos{
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.apresentacao__conteudo__cursos{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: black;
+    font-weight: bold;
+}
+
+.lista__de__cursos:hover{
+    transition: 1s;
+    background-color: var(--cor-terciaria); 
 }
