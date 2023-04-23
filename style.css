@@ -19,42 +19,42 @@ body{
 
 .menu_opcoes{
     text-decoration: none;
-    width: 80px;
+    width: 7%;
     color: black;
     padding: 1%;
     font-family: 'Krona One', sans-serif;
-    font-size: 15px;
-    gap: 5px;
+    font-size: 1rem;
+    gap: 5%;
 }
 
 .apresentacao{
-    margin: 8%;
     display: flex;
+    margin: 8%;
     justify-content:flex-start;
     gap: 9%;
 }
 
 .apresentacao__conteudo{
-    width: 615px;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.93rem;
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: 'Krona One', sans-serif;
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
 }
 
 .destaque{
     color: var(--cor-terciaria);
-    border: 1px solid var(--cor-terciaria);
+    border: 0.07rem solid var(--cor-terciaria);
     font-weight: bold;
 }
 
@@ -62,7 +62,7 @@ body{
     width: 25%;
     height: 25%;
     border-radius:60%;
-    border: var(--cor-seundaria) solid 8px;
+    border: var(--cor-seundaria) solid 0.5rem;
     margin-left: 10%;
 }
 
@@ -109,12 +109,11 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 .apresentacao_fotext{
     background-color: rgb(5, 5, 53);
-    height: 1140px;
+    height: 71.25rem;
     width: 25%;
     margin-left: 2%;
     margin-top: 2%;
@@ -125,8 +124,8 @@ footer{
 }
 
 .apresentacao_ft{
-    height: 200px;
-    width: 200px;
+    height: 20%;
+    width: 60%;
     border-radius:60%;
     border: var(--cor-seundaria) solid 8px;
     margin-left: 10%;
@@ -146,36 +145,50 @@ footer{
 
 .apresentacao_nome{
     font-family: 'Krona One', sans-serif;
-    font-size: 35px;
+    font-size: 2.18rem;
     text-align: center;
 }
 
 .apresentacao_contato{
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 1.87rem;
     text-align: center; 
     margin-top: 5%;
-    background-color: var(--cor-primaria);
+    background-color: rgb(27, 26, 26);
     width: 100%;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.lista_texto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    line-height: 1.6;
 }
 
 .contato_id{
     display: flex;
-    flex-direction: column;
-    margin: 10% 10%;
+    align-items: flex-start;
 }
 
 .icone{
-    height: 200px;
-    width: 200px;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 0.4rem;
 }
 
 .descricao{
-    text-decoration: none;
-    color: var(--cor-seundaria);
     font-family: 'Monteserrat', sans-serif;
-    line-height: 1.7;
-    text-align: start;
+    color: var(--cor-seundaria);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
 }
 
 .qualificacao{
@@ -184,16 +197,16 @@ footer{
 }
 
 .curriculo{
-    height: 1140px;
-    width: 680px;
+    height: 71.25rem; 
+    width: 42.5rem;
     border-radius: 3%;
     margin-top: 4%;
 }
 
 .apresentacao__titulo_cursos{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: 'Krona One', sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 0.63rem;
 }
 
 .lista__de__cursos{
@@ -201,20 +214,20 @@ footer{
     align-items: center;
     width: 100%;
     background-color: var(--cor-seundaria);
-    border-radius: 10px;
+    border-radius: 0.63rem;
     border: var(--cor-terciaria) solid 4px;
-    margin-bottom: 10px;
+    margin-bottom: 0.63rem;
 }
 
 .logo__cursos{
-    height: 40px;
-    width: 40px;
-    margin-right: 5px;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 0.32rem;
 }
 
 .apresentacao__conteudo__cursos{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.20rem;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     color: black;
@@ -224,4 +237,40 @@ footer{
 .lista__de__cursos:hover{
     transition: 1s;
     background-color: var(--cor-terciaria); 
+}
+
+@media (max-width: 1200px){
+    .apresentacao{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+    .menu_opcoes{
+        width: auto;
+    }
+
+    footer{
+        width: auto;
+    }
+
+    .redes_links{
+        align-items: center;
+    }
+
+    .apresentacao_tx{
+        width: auto;
+    }
+
+    .apresentacao_contato{
+        width: auto;
+    }
+
+    .lista__de__cursos{
+        width: auto;
+    }
 }
