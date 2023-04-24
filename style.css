@@ -295,13 +295,16 @@ footer{
 }
 
 .frame_projeto_pong{
-    height: 27.51rem;
+    display: block;
+    height: 25.3rem;
     width: 37.5rem;
+    border: var(--cor-seundaria) solid 3px;
 }
 
 .frame_projeto_road{
-    height: 33.87rem;
-    width: 35rem;
+    height: 31.3rem;
+    width: 31.6rem;
+    border: var(--cor-seundaria) solid 3px;
 }
 
 @media (max-width: 1200px){
