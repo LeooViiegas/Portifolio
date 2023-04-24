@@ -113,10 +113,9 @@ footer{
 
 .apresentacao_fotext{
     background-color: rgb(5, 5, 53);
-    height: 71.25rem;
     width: 25%;
-    margin-left: 2%;
     margin-top: 2%;
+    padding-bottom: 2%;
     border-radius: 3%;
     display:flex;
     flex-direction: column;
@@ -202,6 +201,36 @@ footer{
 .qualificacao{
     background-color: var(--cor-primaria);
     color: var(--cor-primaria);
+}
+
+.titulos_curriculo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    width: 45rem;
+    background-color: var(--cor-seundaria);
+}
+.titulo_curriculo{
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+}
+
+.categorarias_curriculo{
+    font-family: 'Krona One', sans-serif;
+    color: black;
+    padding-right: 3rem;
+    transform: rotate(270deg);
+}
+
+.textos_curriculo{
+    color: black;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 1rem;
 }
 
 .curriculo{
