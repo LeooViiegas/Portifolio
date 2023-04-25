@@ -29,9 +29,10 @@ body{
 
 .apresentacao{
     display: flex;
-    margin: 8%;
-    justify-content:flex-start;
-    gap: 9%;
+    flex-direction: row;
+    margin: 5%;
+    justify-content:start;
+    gap: 3%;
 }
 
 .apresentacao__conteudo{
@@ -240,15 +241,28 @@ footer{
     margin-top: 4%;
 }
 
+.apresentacao_certificados{
+    margin: 5%;
+    gap: 3%;
+}
+
+.apresentacao_cursos{
+    display: flex;
+    margin: 2%;
+    gap: 1%;
+    text-align: center;
+}
+
 .apresentacao__titulo_cursos{
+    display: flex;
     font-size: 2.25rem;
     font-family: 'Krona One', sans-serif;
-    margin-bottom: 0.63rem;
+    margin-top: 2%;
 }
 
 .lista__de__cursos{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     width: 100%;
     background-color: var(--cor-seundaria);
     border-radius: 0.63rem;
@@ -259,7 +273,9 @@ footer{
 .logo__cursos{
     height: 2.5rem;
     width: 2.5rem;
-    margin-right: 0.32rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    margin-top: 0.2rem;
 }
 
 .apresentacao__conteudo__cursos{
