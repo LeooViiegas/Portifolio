@@ -1,0 +1,44 @@
+/*
+   CSS INDEX
+*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    justify-content:start;
+    gap: 3%;
+}
+
+.apresentacao__conteudo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.93rem;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+.destaque{
+    color: var(--cor-terciaria);
+    border: 0.07rem solid var(--cor-terciaria);
+    font-weight: bold;
+}
+
+.perfil{
+    width: 25%;
+    height: 25%;
+    border-radius:60%;
+    border: var(--cor-seundaria) solid 0.5rem;
+    margin-left: 10%;
+}

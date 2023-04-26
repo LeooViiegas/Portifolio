@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root{
+    --cor-primaria: linear-gradient(to top, #072f6a 0%, #000000 100%);
+    --cor-seundaria:  #B6EADA;
+    --cor-terciaria: #FB2576;
+}
+
+body{
+    background-image: var(--cor-primaria);
+    color: var(--cor-seundaria);
+    height: 100%;
+}
+
+.menu{
+    display: flex;
+    background-color: var(--cor-terciaria);
+}
+
+.menu_opcoes{
+    text-decoration: none;
+    width: 7%;
+    color: black;
+    padding: 1%;
+    font-family: 'Krona One', sans-serif;
+    font-size: 1rem;
+    gap: 5%;
+}
+
+footer{
+    height: auto;
+}
+
+.redes_links{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    align-items: flex-end;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.redessociais_links{
+    margin: 5.5%;
+    transition: 1.2s;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: var(--cor-seundaria);
+}
+
+.redessociais_links:hover{
+    transition: 1s;
+    background-color: var(--cor-terciaria);
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-terciaria);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.3%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 1200px){
+    body{
+        width: auto;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+    .menu_opcoes{
+        width: auto;
+    }
+
+    footer{
+        width: auto;
+    }
+
+    .redes_links{
+        align-items: center;
+    }
+
+    .apresentacao_tx{
+        width: auto;
+    }
+
+    .apresentacao_contato{
+        width: auto;
+    }
+
+    .lista__de__cursos{
+        width: auto;
+    }
+
+    .titulo_projetos{
+        font-size: 1.25rem;
+        font-family: 'Krona One', sans-serif;
+        margin-bottom: 0.2rem;
+    }
+
+    .bloco_projeto{
+        margin: 3%;
+        margin-left: 0%;
+    }
+    .projetos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .redessociais_links{
+        margin: 5%;
+        transition: 1.2s;
+        cursor: pointer;
+        width: 45px;
+        height: 45px;
+        border-radius: 10px;
+        background-color: var(--cor-seundaria);
+    }
+}
