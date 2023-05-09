@@ -26,12 +26,12 @@ body{
 
 .menu_opcoes{
     text-decoration: none;
-    width: 7%;
+    width: 6rem;
     color: black;
-    padding: 1%;
+    padding: 1rem;
     font-family: 'Krona One', sans-serif;
     font-size: 1rem;
-    gap: 5%;
+    gap: 15rem;
 }
 
 footer{
@@ -41,18 +41,18 @@ footer{
 .redes_links{
     display: flex;
     flex-direction: column;
-    margin-right: 10%;
+    margin-right: 4rem;
     align-items: flex-end;
     font-family: 'Montserrat', sans-serif;
 }
 
 .redessociais_links{
-    margin: 5.5%;
+    margin: 1rem;
     transition: 1.2s;
     cursor: pointer;
-    width: 45px;
-    height: 45px;
-    border-radius: 10px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.6rem;
     background-color: var(--cor-seundaria);
 }
 
@@ -68,7 +68,7 @@ footer{
     color: black;
     font-weight: bold;
     text-align: center;
-    padding: 0.3%;
+    padding: 0.3rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -107,7 +107,7 @@ footer{
     }
 
     .redessociais_links{
-        margin: 5%;
+        margin: 4%;
         transition: 1.2s;
         cursor: pointer;
         width: 45px;
