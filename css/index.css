@@ -6,9 +6,9 @@
 .apresentacao{
     display: flex;
     flex-direction: row;
-    margin: 5%;
+    margin: 5rem;
     justify-content:start;
-    gap: 3%;
+    gap: 3rem;
 }
 
 .apresentacao__conteudo{
@@ -36,9 +36,9 @@
 }
 
 .perfil{
-    width: 25%;
-    height: 25%;
+    width: 20rem;
+    height: 20rem;
     border-radius:60%;
     border: var(--cor-seundaria) solid 0.5rem;
-    margin-left: 10%;
+    margin-left: 7rem;
 }
