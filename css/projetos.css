@@ -26,8 +26,8 @@
 
 .projetos{
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
     grid-auto-rows: 20rem;
 }
 
@@ -35,4 +35,5 @@
     height: 60%;
     width: 90%;
     border: whitesmoke solid 0.2rem;
+    align-items: center;
 }
