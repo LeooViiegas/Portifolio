@@ -6,16 +6,15 @@
 .apresentacao{
     display: flex;
     flex-direction: row;
-    margin: 5rem;
+    margin: 4rem;
     justify-content:start;
-    gap: 3rem;
+    gap: 4rem;
+    line-height: 1.4;
 }
 
 .apresentacao__conteudo{
-    width: 60%;
     display: flex;
     flex-direction: column;
-    gap: 0.93rem;
 }
 
 .apresentacao__conteudo__titulo{
@@ -24,9 +23,9 @@
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .destaque{
@@ -36,8 +35,8 @@
 }
 
 .perfil{
-    width: 20rem;
-    height: 20rem;
+    width: 17rem;
+    height: 17rem;
     border-radius:60%;
     border: var(--cor-seundaria) solid 0.5rem;
     margin-left: 7rem;

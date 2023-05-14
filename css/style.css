@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
 :root{
     --cor-primaria: linear-gradient(to top, #072f6a 0%, #000000 100%);
     --cor-seundaria:  #B6EADA;
@@ -21,17 +15,17 @@ body{
 
 .menu{
     display: flex;
+    justify-content: space-around;
     background-color: var(--cor-terciaria);
 }
 
 .menu_opcoes{
+    display: flex;
     text-decoration: none;
-    width: 6rem;
     color: black;
     padding: 1rem;
     font-family: 'Krona One', sans-serif;
     font-size: 1rem;
-    gap: 15rem;
 }
 
 footer{
@@ -41,7 +35,8 @@ footer{
 .redes_links{
     display: flex;
     flex-direction: column;
-    margin-right: 4rem;
+    margin-right: 2rem;
+    text-align: center;
     align-items: flex-end;
     font-family: 'Montserrat', sans-serif;
 }
@@ -107,13 +102,24 @@ footer{
     }
 
     .redessociais_links{
-        margin: 4%;
         transition: 1.2s;
         cursor: pointer;
         width: 45px;
         height: 45px;
         border-radius: 10px;
         background-color: var(--cor-seundaria);
+    }
+
+    .apresentacao_cursos{
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        gap: 3%;
+        grid-auto-rows: 10rem;
+    }
+
+    .apresentacao__conteudo__cursos{
+        font-size: 0.9rem;
+        line-height: 1.4;
+        padding: 1%;
     }
 
     .apresentacao_projetos{
@@ -143,6 +149,12 @@ footer{
         width: 25rem;
         border: whitesmoke solid 1px;
     }
+
+    .perfil{
+        justify-content: center;
+        margin-top: 5%;
+        margin-right: 25%;
+    }
     
 }
 
@@ -153,8 +165,7 @@ footer{
     }
 
     .projetos{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: block;
         grid-auto-rows: 1%;
     }
     
@@ -164,22 +175,33 @@ footer{
         border: whitesmoke solid 2px;
         margin: 5%;
     }
-    
-    .apresentacao_cursos{
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 10rem;
-    }
 
     .apresentacao__conteudo__cursos{
         font-size: 0.9rem;
         line-height: 1.4;
         padding: 1%;
+    }   
+
+    .redes_links{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 1%;
     }
-    
-    
+
     footer{
         width: 100vw;
         height: auto;
-        margin-top: 30%;
+        margin-top: 100%;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .perfil{
+        justify-content: center;
+        margin-top: 5%;
+        margin-right: 25%;
     }
 }
