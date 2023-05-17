@@ -1,58 +1,40 @@
 /*
     CSS CERTIFICADOS
 */
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 .apresentacao_certificados{
-    margin: 2rem;
-}
-.apresentacao_cursos{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows: 11rem;
-    margin: 0.5rem;
-    gap: 0.9rem;
+    grid-template-columns: 50% 50%;
+}
+
+.certidicado__titulos{
+
     text-align: center;
-}
-
-.apresentacao__titulo_cursos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 2.20rem;
+    font-size: 0.6rem;
     font-family: 'Krona One', sans-serif;
-    margin: 1rem;
+    text-transform: uppercase;
+    margin: 0.5rem;
 }
 
-.lista__de__cursos{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 2fr));
-    padding: 1%;
-    width: 100%;
-    height: 100%;
-    background-color: var(--cor-seundaria);
-    border-radius: 0.63rem;
-    border: var(--cor-terciaria) solid 0.3rem;
-}
-
-.logo__cursos{
-    height: 2.5rem;
-    width: 2.5rem;
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
-    margin-top: 0.2rem;
-}
-
-.apresentacao__conteudo__cursos{
-    text-decoration: none;
-    font-size: 1.20rem;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.6;
-    color: black;
-    font-weight: bold;
+.certificado{
+    height: 18rem;
+    width: 18rem;
 }
 
 .lista__de__cursos:hover{
     transition: 1s;
-    background-color: var(--cor-terciaria); 
+}
+
+.swiper{
+    align-items: center;
+}
+
+
+.swiper-slide img{
+	width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+	display: none;
 }

@@ -1,3 +1,6 @@
+@import url("index.css");
+@import url("projetos.css");
+@import url("certificados.css");
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 :root{
@@ -17,6 +20,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: var(--cor-terciaria);
+    margin-bottom: 0.5rem;
 }
 
 .menu_opcoes{
@@ -26,6 +30,10 @@ body{
     padding: 1rem;
     font-family: 'Krona One', sans-serif;
     font-size: 1rem;
+}
+
+.opcao_atual{
+    font-size: 1.5rem;
 }
 
 footer{
@@ -90,7 +98,6 @@ footer{
     footer{
         width: 100vw;
         height: auto;
-        margin-top: 10%;
     }
 
     .redes_links{
@@ -180,18 +187,19 @@ footer{
         font-size: 0.9rem;
         line-height: 1.4;
         padding: 1%;
+    
     }   
 
     .redes_links{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: 1%;
+        
     }
 
     footer{
         width: 100vw;
         height: auto;
-        margin-top: 100%;
     }
 
     .apresentacao{
