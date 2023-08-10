@@ -5,13 +5,13 @@
 
 :root{
     --cor-primaria: linear-gradient(to top, #191825 0%, #000000 100%);
-    --cor-seundaria: whitesmoke;
+    --cor-secundaria: whitesmoke;
     --cor-terciaria: linear-gradient(to top, #865DFF 0%, #FFA3FD 100%);
 }
 
 body{
     background-image: var(--cor-primaria);
-    color: var(--cor-seundaria);
+    color: var(--cor-secundaria);
     height: 100%;
     width: 100vw;
 }
@@ -27,7 +27,7 @@ body{
 .menu_opcoes{
     display: flex;
     text-decoration: none;
-    color: var(--cor-seundaria);
+    color: var(--cor-secundaria);
     padding: 1rem;
     font-family: 'Krona One', sans-serif;
     font-size: 0.8rem;
@@ -36,7 +36,12 @@ body{
 }
 
 .opcao_atual{
+    font-family: 'Krona One', sans-serif;
+    font-size: 0.8rem;
+    justify-content: center;
+    margin-top: 1.5rem;
     font-size: 1.2rem;
+    padding: 1rem;
     width: 11rem;
     height: 1rem;
     background: var(--cor-terciaria);
@@ -60,8 +65,8 @@ footer{
     width: 1.9rem;
     height: 1.9rem;
     border-radius: 60%;
-    border: var(--cor-seundaria) solid 0.1rem;
-    background-color: var(--cor-seundaria);
+    border: var(--cor-secundaria) solid 0.1rem;
+    background-color: var(--cor-secundaria);
     margin-top: 1.5rem;
     margin-left: 1rem;
     transition: 1.2s;
@@ -69,15 +74,22 @@ footer{
 }
 
 .redessociais_links:hover{
-    transition: 1s;
-    background-color: var(--cor-terciaria);
+    background-image: var(--cor-terciaria);
+    border-color: var(--cor-terciaria);
+}
+.menu_opcoes:hover{
+    background-image: var(--cor-terciaria);
+    border-bottom: #865DFF solid 0.1rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .rodape{
     display: flex;
     flex-direction: column;
     background-color: black;
-    color: var(--cor-seundaria);
+    color: var(--cor-secundaria);
     font-weight: bold;
     text-align: center;
     padding: 0.3rem;
@@ -123,7 +135,7 @@ footer{
         width: 45px;
         height: 45px;
         border-radius: 10px;
-        background-color: var(--cor-seundaria);
+        background-color: var(--cor-secundaria);
     }
 
     .apresentacao_cursos{

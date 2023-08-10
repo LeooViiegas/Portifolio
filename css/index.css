@@ -42,9 +42,9 @@
     width: 13rem;
     height: 13rem;
     border-radius:60%;
-    border: var(--cor-seundaria) solid 0.2rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    border: var(--cor-secundaria) solid 0.2rem;
+    margin-left: 18rem;
+    margin-right: 2rem;
 }
 
 .typing-text {
