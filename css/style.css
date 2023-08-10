@@ -4,9 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 :root{
-    --cor-primaria: linear-gradient(to top, #072f6a 0%, #000000 100%);
-    --cor-seundaria:  #B6EADA;
-    --cor-terciaria: #FB2576;
+    --cor-primaria: linear-gradient(to top, #191825 0%, #000000 100%);
+    --cor-seundaria: whitesmoke;
+    --cor-terciaria: linear-gradient(to top, #865DFF 0%, #FFA3FD 100%);
 }
 
 body{
@@ -19,21 +19,30 @@ body{
 .menu{
     display: flex;
     justify-content: space-around;
-    background-color: var(--cor-terciaria);
+    align-items: center;
+    background-color: var(--cor-primaria);
     margin-bottom: 0.5rem;
 }
 
 .menu_opcoes{
     display: flex;
     text-decoration: none;
-    color: black;
+    color: var(--cor-seundaria);
     padding: 1rem;
     font-family: 'Krona One', sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    justify-content: center;
+    margin-top: 1.5rem;
 }
 
 .opcao_atual{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    width: 11rem;
+    height: 1rem;
+    background: var(--cor-terciaria);
+    border-radius: 3rem;
+    align-items: center;
+    justify-content: center;
 }
 
 footer{
@@ -44,19 +53,19 @@ footer{
     display: flex;
     flex-direction: column;
     margin-right: 2rem;
-    text-align: center;
-    align-items: flex-end;
     font-family: 'Montserrat', sans-serif;
 }
 
 .redessociais_links{
-    margin: 1rem;
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 60%;
+    border: var(--cor-seundaria) solid 0.1rem;
+    background-color: var(--cor-seundaria);
+    margin-top: 1.5rem;
+    margin-left: 1rem;
     transition: 1.2s;
     cursor: pointer;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 0.6rem;
-    background-color: var(--cor-seundaria);
 }
 
 .redessociais_links:hover{
@@ -67,8 +76,8 @@ footer{
 .rodape{
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-terciaria);
-    color: black;
+    background-color: black;
+    color: var(--cor-seundaria);
     font-weight: bold;
     text-align: center;
     padding: 0.3rem;
