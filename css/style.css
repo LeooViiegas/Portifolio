@@ -7,6 +7,7 @@
     --cor-primaria: linear-gradient(to top, #191825 0%, #000000 100%);
     --cor-secundaria: whitesmoke;
     --cor-terciaria: linear-gradient(to top, #865DFF 0%, #FFA3FD 100%);
+    --cor-bordas: #baa6f5;
 }
 
 body{
@@ -35,7 +36,7 @@ body{
     margin-top: 1.5rem;
 }
 
-.opcao_atual{
+.botao_cv{
     font-family: 'Krona One', sans-serif;
     font-size: 0.8rem;
     justify-content: center;
@@ -46,8 +47,11 @@ body{
     height: 1rem;
     background: var(--cor-terciaria);
     border-radius: 3rem;
+    text-align: center;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    color: var(--cor-secundaria);
 }
 
 footer{
@@ -77,6 +81,7 @@ footer{
     background-image: var(--cor-terciaria);
     border-color: var(--cor-terciaria);
 }
+
 .menu_opcoes:hover{
     background-image: var(--cor-terciaria);
     border-bottom: #865DFF solid 0.1rem;

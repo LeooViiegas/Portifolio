@@ -16,7 +16,7 @@
     flex-direction: column;
 }
 
-.apresentacao__conteudo__titulo{
+.apresentacao__conteudo__titulo, .projetos{
     font-size: 2.5rem;
     font-family: 'Krona One', sans-serif;
     align-self: center;
@@ -26,8 +26,9 @@
 .apresentacao__conteudo__texto{
     font-size: 0.9rem;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
+    line-height: 1.6;
     color: #A78295;
+    margin-top: 3rem;
 }
 
 .destaque{
@@ -43,8 +44,8 @@
     height: 13rem;
     border-radius:60%;
     border: var(--cor-secundaria) solid 0.2rem;
-    margin-left: 18rem;
-    margin-right: 2rem;
+    margin-right: 15rem;
+    justify-content: baseline;
 }
 
 .typing-text {
@@ -64,4 +65,10 @@
     50% {
         opacity: 0;
     }
-}  
+} 
+
+.projetos{
+    margin-top: 5rem;
+    text-align: center;
+    align-items: center;
+}

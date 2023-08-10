@@ -2,30 +2,99 @@
    CSS PROJETOS
 */
 
-.apresentacao_projetos{
+.card__projetos{
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 3rem;
+}
+
+.titulo__secao{
+    margin: 2rem;
+}
+
+.lista__projetos{
+    justify-content: center;
+    border: var(--cor-bordas) solid 0.1rem;
+    border-radius: 1rem;
+    height: 37rem;
+    width: 28rem;
+    transition: 1s ease-in-out;
+    
+}
+
+.lista__projetos{
+    transition: 0.5s;
+    color: whitesmoke;
+}
+
+.item__projetos{
+    display: flex;
+    justify-content: center;
     margin: 1rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
 }
 
-.nome_projetos{
-    font-size: 1.5rem;
-    font-family: 'Krona One', sans-serif;
-    margin: 1rem;
-    text-align: center;
+.previa_projeto{
+    width: 100%;
+	height: 10rem;
+	margin-top: 0.1rem;
+    margin-bottom: 2rem;
+	border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+	transition: transform 0.5s ease-in-out;
+	object-fit: cover;
 }
 
-.projetos{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    grid-auto-rows: 20rem;
+.descricao__projeto{
+    margin-bottom: 8rem;
+    text-align: justify;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    max-height: 3rem;
+    overflow-y: scroll;
+    padding: 1rem;
 }
 
-.frame{
-    height: 60%;
-    width: 90%;
-    border: whitesmoke solid 0.2rem;
-    align-items: center;
+.link_previa{
+    background-color: #865DFF;
+    border: 0.2rem solid #865DFF;
+    border-radius: 2rem;
+    color: white;
+    text-decoration: none;
+    padding: 1.3rem;
+    font-size: 0.7rem;
+}
+
+.link_github{
+    border: 0.2rem solid var(--cor-bordas);
+    border-radius: 2rem;
+    color: white;
+    text-decoration: none;
+    padding: 1.3rem;
+    font-size: 0.7rem;
+}
+
+.link_previa:hover{
+    background-color: transparent;
+    border: 0.2rem solid var(--cor-bordas);
+    border-radius: 2rem;
+    color: white;
+    text-decoration: none;
+    padding: 1.3rem;
+    font-size: 0.7rem;
+}
+
+.link_github:hover{
+    background-color: #865DFF;
+    border: 0.2rem solid #865DFF;
+    border-radius: 2rem;
+    color: white;
+    text-decoration: none;
+    padding: 1.3rem;
+    font-size: 0.7rem;
 }

@@ -23,3 +23,16 @@ function typeText() {
 	}
 	
 	typeText();
+
+
+const swiper = new Swiper('.swiper', {
+	spaceBetween: 3,
+	slidesPerView: 3,
+	pagination: {
+		el: '.swiper-pagination',
+		type: 'bullets',
+	},
+	autoplay: {
+		delay: 2500,
+	},
+});
