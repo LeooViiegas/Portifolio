@@ -46,7 +46,7 @@
 
 .descricao__projeto{
     margin-bottom: 2rem;
-    text-align: justify;
+    text-align: start;
     font-size: 0.8rem;
     line-height: 1.2;
     height: 5rem;

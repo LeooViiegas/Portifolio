@@ -29,6 +29,9 @@
     font-family: 'Krona One', sans-serif;
     align-self: center;
     margin-bottom: 1.5rem;
+    margin-top: 5rem;
+    text-align: center;
+    align-items: center;
 }
 
 .apresentacao__conteudo__texto{
@@ -36,7 +39,7 @@
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     color: #A78295;
-    margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 
 .destaque{
@@ -74,10 +77,4 @@
     50% {
         opacity: 0;
     }
-} 
-
-.projetos{
-    margin-top: 5rem;
-    text-align: center;
-    align-items: center;
 }
