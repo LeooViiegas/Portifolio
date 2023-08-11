@@ -8,6 +8,7 @@
     --cor-secundaria: whitesmoke;
     --cor-terciaria: linear-gradient(to top, #865DFF 0%, #FFA3FD 100%);
     --cor-bordas: #baa6f5;
+    --background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
 }
 
 body{
@@ -15,6 +16,10 @@ body{
     color: var(--cor-secundaria);
     height: 100%;
     width: 100vw;
+}
+
+.cabecalho{
+    margin: 2rem;
 }
 
 .menu-hamburguer {
