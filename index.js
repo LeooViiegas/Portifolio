@@ -24,6 +24,13 @@ function typeText() {
 	
 	typeText();
 
+document.addEventListener('DOMContentLoaded', function() {
+	const hamburguer = document.querySelector('.menu-hamburguer');
+	
+	hamburguer.addEventListener('click', function() {
+		hamburguer.classList.toggle('menu-ativo');
+	});
+});
 
 const swiper = new Swiper('.swiper', {
 	spaceBetween: 3,
@@ -35,4 +42,5 @@ const swiper = new Swiper('.swiper', {
 	autoplay: {
 		delay: 2500,
 	},
-});
+}
+);
