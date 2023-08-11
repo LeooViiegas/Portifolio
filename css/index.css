@@ -5,9 +5,9 @@
 .apresentacao{
     display: flex;
     flex-direction: row;
-    margin: 4rem;
-    justify-content:start;
-    gap: 4rem;
+    margin: 0 4rem;
+    justify-content: start;
+    gap: 1rem;
     line-height: 1.5;
 }
 
@@ -20,26 +20,24 @@
     font-size: 2.5rem;
     font-family: 'Krona One', sans-serif;
     align-self: center;
-    margin-bottom: 1rem;
-    height: 4rem;
-}
-
-.projetos{
-    font-size: 2.5rem;
-    font-family: 'Krona One', sans-serif;
-    align-self: center;
-    margin-bottom: 1.5rem;
-    margin-top: 5rem;
-    text-align: center;
-    align-items: center;
+    margin-bottom: 3rem;
 }
 
 .apresentacao__conteudo__texto{
     font-size: 0.9rem;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     color: #A78295;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
+}
+
+.projetos{
+    font-size: 2rem;
+    font-family: 'Krona One', sans-serif;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    align-items: center;
 }
 
 .destaque{
@@ -56,7 +54,7 @@
     border-radius:60%;
     margin-right: 1rem;
     justify-content: baseline;
-    border: 0.5px solid transparent;
+    border: 0.1rem solid transparent;
 	background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box, linear-gradient(#d39e33, #ed5636, #633bbc) border-box;
 }
 
