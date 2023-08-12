@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 const swiper = new Swiper('.swiper', {
-	spaceBetween: 2,
-	slidesPerView: 4,
+	spaceBetween: 1,
+	slidesPerView: 3,
 	pagination: {
 		el: '.swiper-pagination',
 		type: 'bullets',
