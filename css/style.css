@@ -387,7 +387,7 @@ body{
 }
 
 @media (max-width: 560px){
-   .projetos{
-    display: none;
-   }
-}
+    .projetos{
+     display: none;
+    }
+ }
