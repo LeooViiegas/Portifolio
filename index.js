@@ -40,7 +40,7 @@ const swiper = new Swiper('.swiper', {
 		type: 'bullets',
 	},
 	autoplay: {
-		delay: 2500,
+		delay: 5000,
 	},
 }
 );
