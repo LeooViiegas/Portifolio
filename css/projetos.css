@@ -3,6 +3,11 @@
    CSS PROJETOS
 */
 
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+
 .card__projetos{
     display: flex;
     flex-direction: row;
