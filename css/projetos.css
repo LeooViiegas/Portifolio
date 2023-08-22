@@ -7,17 +7,12 @@
     display: none;
 }
 
-
 .card__projetos{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.5rem;
     margin: 3rem;
-}
-
-.titulo__secao{
-    margin: 2rem;
 }
 
 .lista__projetos{
