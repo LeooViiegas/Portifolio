@@ -8,6 +8,7 @@
 }
 
 .card__projetos{
+    font-family: 'Krona One', sans-serif;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -46,9 +47,10 @@
 }
 
 .descricao__projeto{
+    font-family: 'Krona One', sans-serif;
     margin-bottom: 2rem;
     text-align: start;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 1.2;
     height: 5rem;
     overflow-y: scroll;
