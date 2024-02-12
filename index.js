@@ -15,7 +15,7 @@ function typeText() {
 			textElement.innerHTML = '';
 			index = 0;
 			setTimeout(typeText, 60);
-		  }, 3000);
+		  }, 5000);
 		}, 60);
 	  } else {
 		setTimeout(typeText, 60);
@@ -38,9 +38,6 @@ const swiper = new Swiper('.swiper', {
 	pagination: {
 		el: '.swiper-pagination',
 		type: 'bullets',
-	},
-	autoplay: {
-		delay: 5000,
 	},
 }
 );

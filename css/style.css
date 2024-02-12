@@ -15,7 +15,8 @@ body{
     background-image: var(--cor-primaria);
     color: var(--cor-secundaria);
     height: 100%;
-    width: 100vw;
+    width: 91vw;
+    margin: 5rem;
 }
 
 .cabecalho{
