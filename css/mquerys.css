@@ -9,8 +9,8 @@
 
 @media (max-width: 1340px){
     .lista__projetos{
-        height: 25rem;
-        width: 21rem;    
+        height: 28rem;
+        width: 20rem;    
     }
 
     .descricao__projeto{
@@ -21,17 +21,6 @@
         padding: 1rem;
     }
 
-    .link_previa{
-        padding: 1rem;
-        font-size: 0.7rem;
-        text-align: center;
-    }
-    
-    .link_github{
-        padding: 1rem;
-        font-size: 0.7rem;
-        text-align: center;
-    }   
 
     .item__projetos{
         font-size: 0.8rem;
@@ -51,24 +40,13 @@
         flex-direction: column;
         margin: 0 2rem;
     }
-
-    .link_previa{
-        margin: 0.5rem;
-        padding: 0.5rem;
-        font-size: 0.7rem;
-    }
     
-    .link_github{
-        margin: 0.5rem;
-        padding: 0.5rem;
-        font-size: 0.7rem;
-    }
 }
 
 @media (max-width: 1230px){
     .lista__projetos{
-        height: 25rem;
-        width: 17rem;    
+        height: 28rem;
+        width: 18rem;    
    }
 }
 
@@ -149,15 +127,23 @@
     }
 
     .lista__projetos{
-        height: 25rem;
+        height: 28rem;
         width: 15rem;
     }
+
+    .link_previa, .link_github{
+        padding: 1rem;
+        font-size: 0.7rem;
+        text-align: center;
+        margin: 0.5rem;
+    }
+
 }
 
 @media (max-width: 920px){
     .lista__projetos{
-        height: 26rem;
-        width: 12rem;
+        height: 27rem;
+        width: 16rem;
     }
 
     .link_previa:hover{
@@ -174,8 +160,8 @@
 @media (max-width: 820px){
 
     .lista__projetos{
-        height: 20rem;
-        width: 12rem;
+        height: 23rem;
+        width: 13rem;
     }
 
     .link_previa:hover{
@@ -200,8 +186,8 @@
     }
 
     .lista__projetos{
-        height: 17rem;
-        width: 10rem;
+        height: 20rem;
+        width: 13rem;
     }
 
     .item__projetos{
@@ -209,21 +195,21 @@
     }
 
     .link_previa:hover{
-        margin: 0;
+        margin: 0.5rem;
         padding: 0.6rem;
         font-size: 0.6rem;
     }
     
     .link_github:hover{
-        margin: 0;
+        margin: 0.5rem;
         padding: 0.6rem;
         font-size: 0.6rem;
     }
 
-    .link_github{
-        margin: 0;
+    .link_github, .link_previa{
+        margin: 0.5rem;
         padding: 0.6rem;
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
 }
 
