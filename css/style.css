@@ -130,3 +130,16 @@ body{
     height: 23px;
 
 }
+
+.skills{
+    display: flex;
+    align-items: center;
+}
+
+.trofeu{
+    margin: 0.7rem;
+}
+
+.tecnologia{
+    width: 10rem;
+}
