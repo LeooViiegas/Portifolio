@@ -177,6 +177,10 @@
     .descricao__projeto{
         display: none;
     }
+
+    .tecnologias{
+        justify-content: center;
+    }
 }
 
 @media (max-width: 780px){
@@ -210,6 +214,14 @@
         margin: 0.5rem;
         padding: 0.6rem;
         font-size: 0.5rem;
+    }
+
+    .tecnologias{
+        justify-content: center;
+    }
+    
+    .skills{
+        margin-left: 0.8rem;
     }
 }
 
