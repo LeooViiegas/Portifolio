@@ -143,3 +143,8 @@ body{
 .tecnologia{
     width: 10rem;
 }
+
+hr{
+    color: whitesmoke;
+    width: 85vw;
+}
