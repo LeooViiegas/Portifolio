@@ -16,6 +16,7 @@ body{
     color: var(--cor-secundaria);
     height: 100%;
     width: 100vw;
+    font-family:'Krona One', sans-serif
 }
 
 .cabecalho{

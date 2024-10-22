@@ -34,10 +34,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const swiper = new Swiper('.swiper', {
 	spaceBetween: 1,
-	slidesPerView: 3,
+	slidesPerView: 3.3,
 	pagination: {
 		el: '.swiper-pagination',
-		type: 'bullets',
+		type: '',
+	},
+	autoplay: {
+		delay: 1500,
 	},
 }
 );

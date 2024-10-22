@@ -1,9 +1,9 @@
 const swiper = new Swiper('.swiper', {
 	spaceBetween: 1,
-	slidesPerView: autofit,
+	slidesPerView: 10,
 	pagination: {
 		el: '.swiper-pagination',
-		type: 'bullets',
+		type: '',
 	},
 	autoplay: {
 		delay: 7000,

@@ -66,7 +66,7 @@
     text-align: center;
 }
 
-.link_previa{
+.link_previa, .link_github{  
     background-color: #865DFF;
     border: 0.1rem solid #865DFF;
     border-radius: 2rem;
@@ -76,28 +76,9 @@
     font-size: 0.7rem;
 }
 
-.link_github{
-    border: 0.1rem solid var(--cor-bordas);
-    border-radius: 2rem;
-    color: white;
-    text-decoration: none;
-    padding: 1.3rem;
-    font-size: 0.7rem;
-}
-
-.link_previa:hover{
+.link_previa:hover, .link_github:hover{
     background-color: transparent;
     border: 0.2rem solid var(--cor-bordas);
-    border-radius: 2rem;
-    color: white;
-    text-decoration: none;
-    padding: 1.3rem;
-    font-size: 0.7rem;
-}
-
-.link_github:hover{
-    background-color: #865DFF;
-    border: 0.2rem solid #865DFF;
     border-radius: 2rem;
     color: white;
     text-decoration: none;
