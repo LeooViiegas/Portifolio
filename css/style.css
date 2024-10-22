@@ -121,15 +121,11 @@ body{
 .rodape{
     display: flex;
     flex-direction: column;
-    border-top: 0.2rem solid black;
-    color: var(--cor-secundaria);
-    align-items: center;
+    border-top: 0.1rem solid black;
     text-align: center;
-    justify-content: center;
     padding: 0.5rem;
     font-family: 'Montserrat', sans-serif;
-    height: 23px;
-
+    font-size: 0.7rem;
 }
 
 .skills{
@@ -148,4 +144,8 @@ body{
 hr{
     color: whitesmoke;
     width: 85vw;
+}
+
+#projeto_telaP, #titulo_secaoTelaP{
+    display: none;
 }
